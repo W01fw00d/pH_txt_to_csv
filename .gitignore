@@ -1,5 +1,5 @@
-entrada/*
-!entrada/example.txt
+build/entrada/*
+!build/entrada/exemple.TXT
 
-sortida/*
-!sortida/example.csv
+build/sortida/*
+!build/sortida/exemple.csv
