@@ -1,0 +1,93 @@
+﻿[pH a Excel - Manual de Usuari]
+
+
+
+
+- Descripció:
+
+
+
+Aquest programa interpreta un arxiu .txt amb dades estructurades 
+de la següent forma:
+
+
+
+
+"
+---
+dd-mmm-aaaa
+
+00:00
+
+----
+
+0.000 pH
+
+-0.0 mV
+
+0.0 ºC 
+MTC
+
+Manual EP
+
+Blank
+ 
+
+Last cal.: dd-mmm-aaaa  00:00
+
+----
+----------
+
+NAME
+
+"
+
+
+
+
+I ordena l'hora de la medició i el valor del pH en un arxiu .csv 
+(obrir amb Excel per veure la información estructurada en una taula).
+
+
+
+
+
+- Instruccions: 
+
+
+1. Obri l'arxiu java (pH_a_Excel.jar).
+
+2. A la finestra que apareixerà, click en el recuadre al costat de "Arxiu d'entrada"
+per mostrar un desplegable amb tots els arxius presents a la carpeta "entrada".
+
+3. Seleccioni un arxiu. El programa elegirà per defecte el mateix nom per
+l'arxiu de sortida .csv. Pot canviar-ho al recuadre de text de "Arxiu de sortida".
+
+4. Click en "Crear arxiu" per processar l'arxiu seleccionat i crear el nou a la
+carpeta "sortida".
+
+5. Un missatge de "Arxiu ------ creat" l'indicará que s'ha realitzat el procéss 
+amb èxit.
+
+
+
+
+- Nota:
+
+Se pot situar la carpeta pH_a_Excel en qualsevol directori, només s'han de mantenir
+els arxius i les carpetes interns amb la mateixa estructura
+
+
+
+
+
+* Aquest software és Open Source, i se distribueix amb una llicència
+de copyleft (codi font a la carpeta "codi"): 
+
+GNU General Public License (GNU GPL)
+
+
+
+Web de la "Free Software Foundation": http://www.fsf.org/
+
+
