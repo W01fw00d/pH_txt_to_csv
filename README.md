@@ -3,8 +3,10 @@
 - This program UI, code variables and build/manual.txt is written in [Catalan](https://en.wikipedia.org/wiki/Catalan_language) only
 
 This task parses a .txt file with a format like `build/entrada/exemple.TXT` (build/input/example)
+This input file is the output from a [`Mettler Toledo pH meter`](https://www.mt.com/my/en/home/products/Laboratory_Analytics_Browse/pH-meter.html)
 
 - It orders the data by hour of measurement and pH value
+- It removes innecesary additional data
 - It outputs a .csv file
 
 ## How to use the build
