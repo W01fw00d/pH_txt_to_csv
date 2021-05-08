@@ -1,4 +1,4 @@
-## Converts PH measurements in .txt into .csv
+## Converts pH measurements in .txt into .csv
 
 - This program UI, code variables and build/manual.txt is written in [Catalan](https://en.wikipedia.org/wiki/Catalan_language) only
 
